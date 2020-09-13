@@ -56,3 +56,14 @@ header ul li a {
 .social a i:hover {
   color: #bfbfbd !important;
 }
+
+.pre-none {
+  background: none;
+  border: 0;
+  color: #eaeaea;
+}
+
+.container section {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
