@@ -14,9 +14,23 @@
   <body>
     <header>
         <ul>
-            <li class="home"><a href="/">Home</a></li>
-            <li class="articles"><a href="/articles">Articles</a></li>
-            <li class="developers"><a href="/developers">Developers</a></li>
+            {% if page.title == "Poseid0nSec" %}
+              <li class="active"><a href="/">Home</a></li>
+            {% else %}
+              <li class="home"><a href="/">Home</a></li>
+            {% endif %}
+
+            {% if page.title == "Articles" %}
+              <li class="active"><a href="/articles">Articles</a></li>
+            {% else %}
+              <li class="articles"><a href="/articles">Articles</a></li>
+            {% endif %}
+
+            {% if page.title == "Developers" %}
+              <li class="active"><a href="/developers">Developers</a></li>
+            {% else %}
+              <li class="developers"><a href="/developers">Developers</a></li>
+            {% endif %}
         </ul>
         <div class="social">
             <a href="https://github.com/Poseid0nSec" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
