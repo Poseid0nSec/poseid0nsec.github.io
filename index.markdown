@@ -5,6 +5,8 @@
 layout: default
 title: Poseid0nSec
 ---
+<link rel="stylesheet" href="{{ '/assets/css/home.css?v=' | append: site.github.build_revision | relative_url }}">
+
 <pre class="pre-none">
 ---------------------------------------
 ⠄⠄⠄⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠄⠄⠄
