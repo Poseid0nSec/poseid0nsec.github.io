@@ -100,3 +100,34 @@ header ul li a {
 ::-webkit-scrollbar-thumb {
     background: #4d5963;
 }
+
+@media (max-width: 500px) {
+  header ul li a {
+    font-size: 20px;
+  }
+  
+  header ul li {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  header {
+    padding: 2px 0;
+  }
+}
+
+@media (max-width: 440px) {
+  header ul li a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  header ul li a {
+    font-size: 20px;
+  }
+  header ul li {
+    // padding-left: 0px;
+    // padding-right: 0px;
+  }
+}
